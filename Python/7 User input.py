@@ -1,0 +1,7 @@
+print("7 User input")
+name = input("Your name")
+print("Student info")
+print("=============")
+print("Name :")
+print("Age :")
+print("GPA :")

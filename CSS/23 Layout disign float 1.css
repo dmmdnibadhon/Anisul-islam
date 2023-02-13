@@ -1,0 +1,18 @@
+#clr{
+    clear: both;
+}
+#so{
+    float: left;
+    background-color: green;
+}
+#st{
+    background-color: red;
+}
+#str{
+    background-color: green;
+}
+
+#sf{
+    float: right;
+    background-color: orange;
+}

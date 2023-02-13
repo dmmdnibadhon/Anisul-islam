@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>38 Grid layout</title>
+    <style>
+        .div1{
+            grid-area: header;
+        }
+        .div2{
+            grid-area: manu;
+        }
+        .div3{
+            grid-area: main;
+        }
+        .div4{
+            grid-area: aside;
+        }
+        .div5{
+            grid-area: footer;
+        }
+        .grid_container{
+            display: grid;
+            grid-template-areas: 'header header header header header header' 
+            'manu main main main aside aside' 
+            'manu footer footer footer footer footer';
+            /* grid-template-columns: auto auto auto auto auto auto; */
+        }
+        .grid_container > div{
+            background-color: brown;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        /* .div-1{
+            grid-column: 1 / 7;
+        }
+        .div-2{
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+        .div-3{
+            grid-column: 2 / 6;
+        }
+        .div-4{
+            grid-column: 6 / 7;
+        }
+        .div-5{
+            grid-column: 2 / 7;
+        } */
+    </style>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="div-1">
+            <h1>Header</h1>
+        </div>
+        <div class="div-2">
+            <h1>Manu</h1>
+        </div>
+        <div class="div-3">
+            <h1>Main</h1>
+        </div>
+        <div class="div-4">
+            <h1>Aside</h1>
+        </div>
+        <div class="div-5">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

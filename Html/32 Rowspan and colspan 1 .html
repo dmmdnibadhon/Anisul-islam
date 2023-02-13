@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Rowspan and colspan 1 </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table, td, th{
+            border: 2px solid black;
+            width: 60px;
+            height: 40px;
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+<body>
+     <h1>31 Table 1 Caption table, th, tr adn td tags. width, height, border, border-collaps, border-spacing padding attributes, Rowspan and colspan.</h1><hr>
+     <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Number</th>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nazmul</td>
+                <td>013</td>
+                <td>83437</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Naim</td>
+                <td>83764</td>
+                <td>84587</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>babu</td>
+                <td>93247</td>
+                <td>8973</td>
+            </tr>
+        </thead>
+     </table><br><br>
+     
+     <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Number</th>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nazmul</td>
+                <td>013</td>
+                <td rowspan="2">83437</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Naim</td>
+                <td rowspan="2">83764</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>babu</td>
+                
+                <td>8973</td>
+            </tr>
+        </thead>
+     </table>
+</body>
+</html>

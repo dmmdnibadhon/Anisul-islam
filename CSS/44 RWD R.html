@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>44 RWD R</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+        }
+        .manu{
+            background-color: aquamarine;
+            padding: 15px;
+            display: flex;
+            justify-content: end;
+            gap: 30px;
+        }
+        .manu a{
+            
+        }
+        @media screen and (max-width: 600px) {
+            .manu{
+                flex-direction: column;
+            }
+            .manu a{
+                text-align: center;
+                background-color: tomato;
+                padding: 20px 0;
+                border-radius: 10px;
+                transition: all linear .3s;
+            }
+            .manu a:hover{
+                background-color: fuchsia;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manu">
+        <a href="#">Home</a>
+        <a href="#">Gellary</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</body>
+</html>

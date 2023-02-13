@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>45 Class</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .colum{
+            flex: 25%;
+            padding: 10px;
+        }
+        @media screen and (max-width: 992px) {
+            .colum{
+                flex: 50%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .row{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="colum">
+            <h1>HTML</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam vitae numquam eveniet in suscipit animi repellendus ullam, enim minima deleniti, quis facere accusantium quam nulla adipisci pariatur praesentium eum reprehenderit.</p>
+        </div>
+        <div class="colum">
+            <h1>CSS</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam vitae numquam eveniet in suscipit animi repellendus ullam, enim minima deleniti, quis facere accusantium quam nulla adipisci pariatur praesentium eum reprehenderit.</p>
+        </div>
+        <div class="colum">
+            <h1>BOOTSTRAP</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam vitae numquam eveniet in suscipit animi repellendus ullam, enim minima deleniti, quis facere accusantium quam nulla adipisci pariatur praesentium eum reprehenderit.</p>
+        </div>
+        <div class="colum">
+            <h1>JS</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam vitae numquam eveniet in suscipit animi repellendus ullam, enim minima deleniti, quis facere accusantium quam nulla adipisci pariatur praesentium eum reprehenderit.</p>
+        </div>
+    </div>
+</body>
+</html>

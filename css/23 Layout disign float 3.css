@@ -1,0 +1,20 @@
+#clr{
+    clear: both;
+}
+#section1{
+    float: right;
+    background-color: orange;
+    display: block;
+}
+#section2{
+    float: right;
+    background-color: lime;
+    display: block;
+}
+#section3{
+    float: left;
+    background-color: yellow;
+}
+#section4{
+    background-color: red;
+}

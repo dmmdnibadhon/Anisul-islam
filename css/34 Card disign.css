@@ -1,0 +1,36 @@
+.card_containers{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 4px black;
+}
+img{
+    width: 100%;
+}
+.card_body{
+    padding: 5px;
+    background-color: purple;
+}
+.card_body .card_title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.card_body .card_des{
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.card:hover{
+    box-shadow: 6px 12px 10px white;
+}

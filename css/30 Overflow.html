@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Overflow</title>
+    <link rel="shortcut icon" href="../Images/FNI Logo.jpg" type="image/x-icon">
+    <style>
+        div{
+            width: 250px;
+            height: 200px;
+            border: 1px solid red;
+            background-color: orange;
+            overflow: scroll;
+        }
+        .tooltip{
+            position: relative;
+        }
+        .tooltip .tooltip_text{
+            visibility: hidden;
+            width: 150px;
+            padding: 10px;
+            color: white;
+            background-color: indigo;
+            border-radius: 5ps;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 1;
+        }
+        .tooltip:hover .tooltip_text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltip">Facebook
+        <span class="tooltip_text">Facebook is the most popular social media</span>
+    </a><br><br>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates dolor, fuga ipsam porro est aut, minus ratione dolore in et? Necessitatibus distinctio repellat maiores? Magni ratione suscipit illum amet.lorrem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vero reprehenderit voluptatum eius rem dolorem ex! Aliquam laudantium deleniti, ratione reiciendis aliquid fuga quasi ipsum, quibusdam veniam dicta voluptatibus qui.
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999e;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+hr{
+    width: 100%;
+    border: 4px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/* header start */
+
+.container{
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #E4F9F5;
+}
+.ppic{
+    width: 100px;
+    height: 120px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.pbio{
+    float: left;
+    padding: 20px;
+}
+.hcontact{
+    float: right;
+    padding: 20px;
+}
+.hcontact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #11999e;
+    transition: .4s;
+}
+.hcontact a:hover{
+    color: tomato;
+}

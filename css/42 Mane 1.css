@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+ul, ol, li{
+    list-style: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    background-color: fuchsia;
+    padding: 10px;
+}
+.manu{}
+.manu ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.manu ul li{
+    position: relative;
+    transition: all linear .3s;
+}
+.manu ul li a{}
+.manu ul li ul{
+    position: absolute;
+    right: 0;
+    top: calc(100% + 26px);
+    display: block;
+    background-color: fuchsia;
+    width: 40px;
+    visibility: hidden;
+
+}
+.manu ul li:hover ul{
+    visibility: visible;
+}
+.manu ul li ul li a{

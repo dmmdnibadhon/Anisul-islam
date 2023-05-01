@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>38 Grid layout part-2</title>
+    <style>
+        .item-1{grid-area: header;}
+        .item-2{grid-area: manu;}
+        .item-3{grid-area: main;}
+        .item-4{grid-area: aside;}
+        .item-5{grid-area: footer;}
+        .grid_container{
+            display: grid;
+            /*grid-template-columns: auto auto auto auto auto auto;*/
+            grid-template-areas: 
+            "header header header header header header"
+            "manu main main main aside aside"
+            "manu footer footer footer footer footer"
+            ;
+        }
+        .grid_container > div{
+            background-color: brown;
+            border: 1px solid black;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        /*.item-1{
+            grid-column: 1 / 7;
+        }
+        .item-2{
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+        .item-3{
+            grid-column: 2 / 6;
+        }
+        .item-4{
+            grid-column: 6 / 7;
+        }
+        .item-5{
+            grid-column: 2 / 7;
+        }*/
+    </style>
+</head>
+<body>
+    <h1>38 Grid layout part-2</h1>
+    <div class="grid_container">
+        <div class="item-1">
+            <h1>Header</h1>
+        </div>
+        <div class="item-2">
+            <h1>Menu</h1>
+        </div>
+        <div class="item-3">
+            <h1>Main</h1>
+        </div>
+        <div class="item-4">
+            <h1>Aside</h1>
+        </div>
+        <div class="item-5">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

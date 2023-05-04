@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>45 RWD column</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column{
+            flex: 25%;
+            padding: 10px;
+        }
+        @media screen and (max-width: 992px){
+            .column{
+                flex: 50%;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .column{
+                flex: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto magni dicta repellat molestias eaque qui voluptatibus fugiat. Expedita non error aliquid aliquam. Rem omnis vero quaerat in hic. Aut.</p>
+        </div>
+        <div class="column">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam suscipit vitae, laudantium nihil hic laboriosam. Similique debitis optio, excepturi nam quisquam, voluptate quod molestiae officiis dolores doloribus, inventore quasi.</p>
+        </div>
+        <div class="column">
+            <h1>JS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam suscipit vitae, laudantium nihil hic laboriosam. Similique debitis optio, excepturi nam quisquam, voluptate quod molestiae officiis dolores doloribus, inventore quasi.</p>
+        </div>
+        <div class="column">
+            <h1>Bootstrap</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam suscipit vitae, laudantium nihil hic laboriosam. Similique debitis optio, excepturi nam quisquam, voluptate quod molestiae officiis dolores doloribus, inventore quasi.</p>
+        </div>
+    </div>
+</body>
+</html>

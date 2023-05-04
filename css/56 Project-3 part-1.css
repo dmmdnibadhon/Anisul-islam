@@ -1,0 +1,40 @@
+/* Common CSS part start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+/* Common CSS part end */
+
+/* Navbar part start */
+#navbar{
+    background-color: #0c6168;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav_logo{}
+.nav_logo img{}
+.nav_heading{}
+.nav_heading h1{
+    font-size: 2.5rem;
+}
+.nav_menu{}
+.nav_menu a{
+    color: white;
+    font-size: 1.2rem
+}
+/* Navbar part end */
+
+/* Common CSS part start */
+/* Common CSS part end */
+/* Common CSS part start */
+/* Common CSS part end */
+/* Common CSS part start */
+/* Common CSS part end */

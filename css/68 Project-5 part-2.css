@@ -1,0 +1,111 @@
+/* Common CSS part start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* font-family: 'Italianno', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #fff;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+}
+/* Common CSS part end */
+
+
+/* Header part start */
+#header{}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 2rem 1rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+}
+.logo_figure{
+    border: 1px solid #fff;
+}
+.logo_figure i{}
+.logo{
+    font-size: 4rem;
+}
+nav li{
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1rem;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav li:hover{
+    background-color: #1913d5;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+.nav_link{
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+/* Header part end */
+
+
+/* Header part start */
+/* Header part end */
+/* Header part start */
+/* Header part end */
+/* Header part start */
+/* Header part end */
+/* Media query part start */
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 600px) {
+    html{
+        font-size: 48.5%;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        padding-left: 2.5rem;
+    }
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin: 1rem 0;
+    }
+}
+@media (max-width: 400px) {
+    
+}
+/* Media query part end */

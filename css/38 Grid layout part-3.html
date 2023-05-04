@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>38 Grid layout part-3</title>
+    <style>
+        .grid_container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+        }
+        .grid_container > div{
+            border: solid;
+            padding: 10px;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+
+            display: grid;
+            grid-template-rows: main-content auto min-content;
+            grid-template-areas: none
+            "h"
+            "m"
+            "m"
+            "m"
+            "f"
+            ;
+        }
+        header{
+            grid-area: h;
+            background-color: pink;
+            width: 100%;
+        }
+        main{
+            grid-area: m;
+        }
+        article{
+            grid-area: a;
+        }
+        footer{
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="grid_container">
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+        <div>
+            <p>38 Grid layout part-3</p>
+        </div>
+    </div> -->
+    <main>
+        <article>
+            <section id="sec_1">Section-1</section>
+            <section id="sec_2">Section-2</section>
+            <section id="sec_3">Section-3</section>
+
+            <aside id="aside_1">Aside-1</aside>
+            <aside id="aside_2">Aside-2</aside>
+        </article>
+    </main>
+    <footer>
+        <nav id="nav_1">Nav-1</nav>
+        <nav id="nav_2">Nav-2</nav>
+    </footer>
+</body>
+</html>

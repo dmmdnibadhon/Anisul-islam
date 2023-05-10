@@ -1,0 +1,27 @@
+/* Common CSS start*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Common CSS end*/
+/* CSS veriable start*/
+$White_color: #FFFFFF;
+$Blue_color: #562EFF;
+--All_heading_black_color: #3A3A3A;
+--All_paragraph_black_color: #6C6C6C;
+--Gray_color: #5E6366;
+--Light_Gray_color: #787885;
+--Red_color: #E02C6D;
+$Orange_color: orange;
+/* CSS veriable end*/
+
+/* Body start*/ 
+header{
+    background-color: $Orange_color;
+}
+main{
+    background-color: $Blue_color;
+}
+/* Body end*/ 
